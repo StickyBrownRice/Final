@@ -24,7 +24,7 @@ export default function NoteCard(props) {
     event.preventDefault();
     const { title, content } = note;
     const result = await fetch(
-      " https://jot-diaries.herokuapp.com/notes/createNote",
+      " http://localhost:5001/notes/createNote",
       {
         method: "POST",
         headers: {
@@ -48,7 +48,7 @@ export default function NoteCard(props) {
   async function getNoteDetails() {
     const noteId = localStorage.getItem("noteId");
     const result = await fetch(
-      " https://jot-diaries.herokuapp.com/notes/getNote/" + noteId,
+      " http://localhost:5001/notes/getNote/" + noteId,
       {
         method: "GET",
         headers: {
@@ -71,7 +71,7 @@ export default function NoteCard(props) {
     const noteId = localStorage.getItem("noteId");
     const { title, content } = note;
     const result = await fetch(
-      "https://jot-diaries.herokuapp.com/notes/updateNote/" + noteId,
+      "http://localhost:5001/notes/updateNote/" + noteId,
       {
         method: "PATCH",
         headers: {

@@ -11,7 +11,7 @@ function ProfilePage() {
 
   async function getUser() {
     const result = await fetch(
-      "https://jot-diaries.herokuapp.com/auth/getUser",
+      "http://localhost:5001/auth/getUser",
       {
         method: "GET",
         headers: {

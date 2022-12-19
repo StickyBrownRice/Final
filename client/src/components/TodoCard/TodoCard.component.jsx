@@ -12,7 +12,7 @@ function TodoCard(props) {
   async function createTodo(event) {
     event.preventDefault();
     const result = await fetch(
-      "https://jot-diaries.herokuapp.com/todos/createTodo",
+      "http://localhost:5001/todos/createTodo",
       {
         method: "POST",
         headers: {
@@ -36,7 +36,7 @@ function TodoCard(props) {
   async function getTodoDetails() {
     const todoId = localStorage.getItem("todoId");
     const result = await fetch(
-      " https://jot-diaries.herokuapp.com/todos/getTodo/" + todoId,
+      " http://localhost:5001/todos/getTodo/" + todoId,
       {
         method: "GET",
         headers: {
@@ -58,7 +58,7 @@ function TodoCard(props) {
     event.preventDefault();
     const todoId = localStorage.getItem("todoId");
     const result = await fetch(
-      " https://jot-diaries.herokuapp.com/todos/updateTodo/" + todoId,
+      " http://localhost:5001/todos/updateTodo/" + todoId,
       {
         method: "PATCH",
         headers: {

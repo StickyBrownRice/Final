@@ -10,7 +10,7 @@ function NotesPage() {
 
   async function getNotes() {
     const result = await fetch(
-      "https://jot-diaries.herokuapp.com/notes/getNotes",
+      "http://localhost:5001/notes/getNotes",
       {
         method: "GET",
         headers: {

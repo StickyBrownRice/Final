@@ -19,7 +19,7 @@ function CreatedNote(props) {
 
   async function deleteNote() {
     const result = await fetch(
-      "https://jot-diaries.herokuapp.com/notes/deleteNote/" + props.id,
+      "http://localhost:5001/notes/deleteNote/" + props.id,
       // "http://localhost:8000/notes/deleteNote/" + props.id,
       {
         method: "DELETE",

@@ -31,7 +31,7 @@ function Login() {
     event.preventDefault();
     const { email, password } = user;
     const result = await fetch(
-      "https://jot-diaries.herokuapp.com/auth/signin",
+      "http://localhost:5001/auth/signin",
       {
         method: "POST",
         headers: {
@@ -77,7 +77,7 @@ function Login() {
             method="POST"
             style={{ backgroundColor: "#D5D5D5" }}
           >
-            <div className="loginform-title">Sign In</div>
+            <div className="loginform-title">LOGIN</div>
             <div className="name">
               <TextField
                 label="Email"
@@ -108,7 +108,7 @@ function Login() {
                 variant="contained"
                 style={{ fontSize: "1.2em" }}
               >
-                Sign In
+                LOGIN
               </Button>
             </div>
           </form>

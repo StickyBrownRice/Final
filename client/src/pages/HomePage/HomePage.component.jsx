@@ -13,13 +13,12 @@ function HomePage(){
             LETS GET STARTED.
         </div>
         <div className="content">
-            A one place to keep track of your daily notes and your todos.<br/>
+            To Help Track Tasks and Work<br/>
             <span className="motivation">
-            Lacking Motivation to jot down your daily tasks?<br/>
+            <br/>
             </span>
-            <span className="worry">DON'T WORRY.
+            <span className="worry">
             </span>
-            We have interesting blogs for you to help you keep motivated.
         </div>
         <div className="button">
         <Link to="/signup" style={{textDecoration:"none"}}>

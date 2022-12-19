@@ -9,7 +9,7 @@ function TodoPage(){
     const[todos,setTodos]=useState([]);
 
     async function getTodos(){
-        const result=await fetch("https://jot-diaries.herokuapp.com/todos/getTodos",{
+        const result=await fetch("http://localhost:5001/todos/getTodos",{
             method:"GET",
             headers:{
                 token:localStorage.getItem("token"),

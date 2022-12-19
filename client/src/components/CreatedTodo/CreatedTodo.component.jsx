@@ -10,7 +10,7 @@ function CreatedTodo(props){
     }
 
     async function deleteTodo(){
-const result=await fetch(" https://jot-diaries.herokuapp.com/todos/deleteTodo/"+props.id,{
+const result=await fetch("http://localhost:5001/todos/deleteTodo/"+props.id,{
     method:"DELETE",
     headers:{
         token:localStorage.getItem("token")

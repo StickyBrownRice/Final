@@ -54,7 +54,7 @@ function SignUp() {
     e.preventDefault();
     const { username, email, password, confirmPassword } = user;
     const result = await fetch(
-      " https://jot-diaries.herokuapp.com/auth/signup",
+      " http://localhost:5001/auth/signup",
       {
         method: "POST",
         headers: {
