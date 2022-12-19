@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-page{
+    height: 100vh;
+    background-color: #f9c039;
+    color:black;
+    padding: 60px;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+.profile-carousel{
+    display:flex ;
+    align-items: stretch;
+    padding: 50px;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}

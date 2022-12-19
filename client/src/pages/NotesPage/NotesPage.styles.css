@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.notes-container{
+    height:100vh;
+    background-color:#f9c039 ;
+    overflow-y: scroll;
+}
+
+.note-page-heading{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 70px;
+}
+

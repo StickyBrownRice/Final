@@ -1,0 +1,58 @@
+*{    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.signup-form{
+    background-color: #F9C039;
+    height:100vh;
+}
+
+
+.signup-container{ 
+    padding: 40px;
+    margin-top: 8%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.signup-form-two{
+    margin-top: 7%;
+}
+
+.signupform-title{
+    font-size: 2.4em;
+    text-align: center;
+  font-weight: 700;
+  padding-top:5px;
+    padding:12px;
+}
+
+.login:hover{
+color:white;
+}
+
+.name,.email,.password,.confirm-password{
+    align-items: center;
+    width:50%;
+    padding:10px;
+    margin: auto;
+}
+
+.signup-button{
+    align-items: center;
+    display: flex;
+    margin-left: 36%;
+    padding:10px;
+    margin-right: auto;
+}
+
+.text{
+    text-align: center;
+    padding:10px;
+    font-size:1.4em;
+}
+

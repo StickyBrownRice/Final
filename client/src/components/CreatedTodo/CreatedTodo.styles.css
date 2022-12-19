@@ -1,0 +1,23 @@
+.created-todo{
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    padding:8px;
+    width:500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 40px auto auto auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+
+.created-todo li{
+list-style-type: none;
+ } 
+
+
+ li.edit-todo-icon,li.delete-todo-icon{
+    color:black;
+    float: right;
+ }
