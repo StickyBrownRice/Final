@@ -9,7 +9,8 @@ import NotesPage from "./pages/NotesPage/NotesPage.component";
 import TodoPage from "./pages/TodoPage/TodoPage.component";
 // import Blogs from "./components/Blogs/Blogs.component";
 import ProfilePage from "./pages/ProfilePage/ProfilePage.component";
-
+import CalendarPage from "./pages/CalendarPage/CalendarPage.component";
+import "./App.css"
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/notes" element={<NotesPage />} />
         <Route path="/todo" element={<TodoPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path = "/calendar" element = {<CalendarPage />} />
         {/* </Route> */}
       </Routes>
       <Footer/>

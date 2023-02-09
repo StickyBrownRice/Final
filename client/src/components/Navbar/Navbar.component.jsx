@@ -22,7 +22,7 @@ function Navbar() {
       <nav>
         <ul>
         <Link to="/profile">
-          <li>PlanIt</li>
+          <li>EPlanner</li>
           </Link>
           <div className="right-side-items">
             <Link to="/profile">
@@ -37,6 +37,9 @@ function Navbar() {
             {/* <Link to="/blogs">
               <li>Blogs</li>
             </Link> */}
+            <Link to = "/calendar">
+            <li>Calendar</li>
+            </Link>
             <Link to="/" onClick={()=>userLogOut()}>
               <li>Log Out</li>
             </Link>
@@ -50,7 +53,7 @@ function Navbar() {
 <nav>
   <ul>
     <Link to="/profile">
-      <li>PlanIt</li>
+      <li>EPlanner</li>
     </Link>
     <div className="right-side-items">
       <Link to="/signup">

@@ -10,7 +10,7 @@ function HomePage(){
     <div className="homepage">
     <div className="pagetext">
         <div className="heading">
-            LETS GET STARTED.
+            GET STARTED.
         </div>
         <div className="content">
             To Help Track Tasks and Work<br/>
